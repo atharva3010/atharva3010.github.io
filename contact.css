@@ -40,15 +40,7 @@ footer{
     font-size: 13px;
     right: 20px;
 }
-.contact{
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    font-style: none;
-    padding-top: 50px;
 
-}
 .navbar{
     list-style-type: none;
     text-decoration: none;
@@ -79,4 +71,23 @@ li{
     background-color: rgb(114, 0, 0);
     color: rgb(185, 185, 185);
     border-radius: 10%;
+}
+
+.contact{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-style: none;
+    padding-top: 50px;
+}
+
+.contact a{
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    
 }
