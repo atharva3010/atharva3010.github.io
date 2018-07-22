@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: baseline;
+}
+
+html{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body{
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(255,255,255,0.75);
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(25,25,25);
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    float: bottom;
+    bottom: 5px;
+    font-size: 13px;
+    right: 20px;
+}
+
+.description{
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+.navbar{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 20px;
+    float: right;
+    right: 20px;
+}
+
+li{
+    display: inline;
+}
+.navbar a{
+    display: block;
+    width: 60px;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(185, 185, 185);
+}
+
+.navbar a:hover {
+    background-color: rgb(114, 0, 0);
+    color: rgb(185, 185, 185);
+    border-radius: 10%;
+}
+
+.line{
+    position: relative;
+    top: 50%;
+    width: 12em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 125%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; 
+    transform: translateY(-50%);
+}
+
+.anim-typewriter{
+    animation:typewriter 2s steps(40) 0.5s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter{
+    from{
+        width: 0em;
+    }
+    to{
+        width: 12em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
