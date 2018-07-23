@@ -30,6 +30,7 @@ header{
     margin: 0;
     padding: 0;
     font-size: 45px;
+    color: rgb(255, 255, 255);
 }
 
 footer{
@@ -65,7 +66,7 @@ li{
 }
 .navbar a{
     display: block;
-    width: 60px;
+    width: 70px;
     float: right;
     text-align: center;
     padding: 14px 16px;
