@@ -45,15 +45,18 @@ footer{
 
 .content{
     padding-top: 50px;
-    font-family: font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    position: relative;
-    width: 45em;
+    margin: 0;
+    font-size: 16px;
     float: left;
+    overflow: hidden;
+    width: 45em;
 }
 
 .content p{
     padding-top: 20px;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
 }
 
 .resume{
