@@ -87,6 +87,27 @@ li{
     padding-right: 20px;
 }
 
+.resume{
+    padding: 20px;
+    float: right;
+    border: 4px;
+    border-top-right-radius: 30px;
+    border-style: dashed;
+    border-color: rgb(114, 0, 0);
+    transition: transform 0.2s;
+}
+
+.resume a{
+    text-decoration: none;
+    display: block;
+    color: rgb(185, 185, 185);
+}
+
+.resume:hover{
+    transform: scale(1.5);
+    border-color: rgb(17, 0, 255);
+}
+
 img{
     border-radius: 50%;
     display: block;
