@@ -40,7 +40,7 @@ footer{
     float: bottom;
     bottom: 5px;
     font-size: 13px;
-    right: 20px;
+    text-align: center;
 }
 
 .description{
@@ -90,17 +90,16 @@ img{
 }
 
 .line{
-    top: 30%;
-    width: 28em;
+    top: 50%;
+    width: 27em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
-    font-size: 155%;
+    font-size: 150%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden; 
-    transform: translateY(-50%);
-    max-width: 100%;
-    position: relative;
+    transform: translateY(-80%);
+    position: fixed;
 }
 
 .anim-typewriter{
@@ -113,7 +112,7 @@ img{
         width: 0em;
     }
     to{
-        width: 28em;
+        width: 27em;
     }
 }
 
