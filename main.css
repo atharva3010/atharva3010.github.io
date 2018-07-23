@@ -26,11 +26,11 @@ body{
 
 header{
     font-family: 'Montserrat', sans-serif;
-    position: relative;
     margin: 0;
     padding: 0;
-    font-size: 45px;
+    font-size: 40px;
     color: rgb(255, 255, 255);
+    position: relative;
 }
 
 footer{
@@ -82,27 +82,25 @@ li{
 }
 
 img{
-    border-radius: 30%;
+    border-radius: 50%;
     display: block;
     height: 200px;
     width: 200px;
     float: right;
-    padding: 20px;
-
 }
 
 .line{
-    position: relative;
-    top: 50%;
+    top: 30%;
     width: 28em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
-    font-size: 125%;
+    font-size: 155%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden; 
     transform: translateY(-50%);
     max-width: 100%;
+    position: relative;
 }
 
 .anim-typewriter{
