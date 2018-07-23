@@ -82,13 +82,13 @@ li{
 }
 
 img{
-    border-radius: 50%;
+    border-radius: 30%;
     display: block;
     height: 200px;
     width: 200px;
     float: right;
     padding: 20px;
-    
+
 }
 
 .line{
