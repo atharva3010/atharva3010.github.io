@@ -21,7 +21,6 @@ body{
     display: block;
     width: 1000px;
     margin: 30px auto 0;
-    display: table;
     box-sizing: border-box;
 }
 
@@ -38,7 +37,7 @@ header {
 
 .content{
     width: 100%;
-    clear: both;  
+    clear: both;
 }
 
 footer{
