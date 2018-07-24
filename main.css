@@ -32,18 +32,18 @@ header{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     font-size: 30px;
     color: rgb(255, 255, 255);
-    position: relative;
     clear: both;
 }
 
 footer{
-    padding: 0;
+    padding-top: 50px;
     margin: 0;
     bottom: 5px;
     font-size: 13px;
+    padding-top: 50px;
     text-align: center;
     clear: both;
 }
@@ -53,6 +53,8 @@ footer{
     color: gray;
     width: 100%;
     clear: both;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar{
@@ -61,8 +63,6 @@ footer{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    top: 20px;
-    align-self: right;
     right: 20px;
     width: 100%;
     clear: both;
@@ -73,10 +73,10 @@ li{
 }
 
 .navbar a{;
-    width: 70px;
+    width: 60px;
     float: right;
     text-align: center;
-    padding: 16px 8px;
+    padding: 16px 15px;
     text-decoration: none;
     font-size: 17px;
     color: rgb(185, 185, 185);
@@ -104,6 +104,8 @@ li{
     clear: both;
     width: 150px;
     order: 3;
+    margin: 50px;
+    margin-left: 0;
 }
 
 .resume a{

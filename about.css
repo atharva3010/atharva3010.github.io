@@ -69,8 +69,6 @@ p{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    align-self: right;
-    top: 20px;
     right: 20px;
     clear: both;
     width: 100%;
@@ -80,10 +78,10 @@ li{
     display: inline;
 }
 .navbar a{
-    width: 70px;
+    width: 60px;
     float: right;
     text-align: center;
-    padding: 16px 8px;
+    padding: 16px 15px;
     text-decoration: none;
     font-size: 17px;
     color: rgb(185, 185, 185);
