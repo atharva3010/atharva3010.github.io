@@ -18,15 +18,14 @@ body{
 }
 
 .container{
-    display: block;
-    width: 1000px;
-    margin: 30px auto 0;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 89vh;
 }
 
 header {
     font-family: 'Montserrat', sans-serif;
-    position: relative;
     margin: 0;
     padding: 0;
     font-size: 30px;
@@ -35,16 +34,19 @@ header {
     clear: both;
 }
 
-.content{
+.text{
     width: 100%;
     clear: both;
+    word-wrap: break-word;
+}
+
+.content{
+    flex: 1;
 }
 
 footer{
-    position: fixed;
     padding: 0;
     margin: 0;
-    float: bottom;
     bottom: 5px;
     font-size: 13px;
     text-align: center;
@@ -54,9 +56,10 @@ p{
     padding-top: 30px;
     margin: 0;
     overflow: hidden;
-    width: 45em;
+    width: 100%;
     float: left;
     clear: both;
+    word-wrap: break-word;
 }
 
 
@@ -66,9 +69,8 @@ p{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: fixed;
+    align-self: right;
     top: 20px;
-    float: right;
     right: 20px;
     clear: both;
     width: 100%;
@@ -78,7 +80,6 @@ li{
     display: inline;
 }
 .navbar a{
-    display: block;
     width: 70px;
     float: right;
     text-align: center;

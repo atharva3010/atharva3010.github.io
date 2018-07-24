@@ -8,11 +8,6 @@
     padding: 0;
 }
 
-html{
-    min-height: 100%;
-    overflow: hidden;
-}
-
 body{
     height: calc(100vh - 8em);
     padding: 4em;
@@ -26,6 +21,11 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    min-height: 89vh;
+}
+
+.content{
+    flex: 1;
 }
 
 header{
@@ -40,10 +40,8 @@ header{
 }
 
 footer{
-    position: fixed;
     padding: 0;
     margin: 0;
-    float: bottom;
     bottom: 5px;
     font-size: 13px;
     text-align: center;
@@ -63,9 +61,8 @@ footer{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: fixed;
     top: 20px;
-    float: right;
+    align-self: right;
     right: 20px;
     width: 100%;
     clear: both;
@@ -75,8 +72,7 @@ li{
     display: inline;
 }
 
-.navbar a{
-    display: block;
+.navbar a{;
     width: 70px;
     float: right;
     text-align: center;
@@ -99,15 +95,15 @@ li{
 
 .resume{
     padding: 20px;
-    float: right;
     border: 4px;
     border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     border-style: dashed;
     border-color: rgb(114, 0, 0);
     transition: transform 0.2s;
     clear: both;
-    position: relative;
     width: 150px;
+    order: 3;
 }
 
 .resume a{
@@ -123,19 +119,18 @@ li{
 
 .line{
     top: 50%;
-    width: 27em;
+    width: 14.5em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
-    font-size: 130%;
+    font-size: 100%;
     white-space: nowrap;
     overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    word-wrap: break-word;
+    align-self: center;
+    color: rgb(255, 255, 255);
 }
 
 .anim-typewriter{
-    animation:typewriter 4s steps(40) 0.5s 1 normal both,
+    animation:typewriter 3s steps(40) 0.5s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
@@ -144,7 +139,7 @@ li{
         width: 0em;
     }
     to{
-        width: 27em;
+        width: 14.5em;
     }
 }
 
