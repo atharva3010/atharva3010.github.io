@@ -110,13 +110,11 @@ li{
 
 .resume a{
     text-decoration: none;
-    display: block;
     color: rgb(185, 185, 185);
 }
 
 .resume:hover{
-    transform: scale(1.5);
-    border-color: rgb(17, 0, 255);
+    border-color: rgb(185, 185, 185);
 }
 
 .line{
