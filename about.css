@@ -8,11 +8,6 @@
     padding: 0;
 }
 
-html{
-    min-height: 100%;
-    overflow: hidden;
-}
-
 body{
     height: calc(100vh - 8em);
     padding: 4em;
@@ -24,7 +19,10 @@ body{
 
 .container{
     display: block;
-    width: 100%;
+    width: 1000px;
+    margin: 30px auto 0;
+    display: table;
+    box-sizing: border-box;
 }
 
 header {
@@ -36,6 +34,11 @@ header {
     color: rgb(255, 255, 255);
     width: 50px;
     clear: both;
+}
+
+.content{
+    width: 100%;
+    clear: both;  
 }
 
 footer{
@@ -64,11 +67,12 @@ p{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: relative;
+    position: fixed;
     top: 20px;
     float: right;
     right: 20px;
     clear: both;
+    width: 100%;
 }
 
 li{
