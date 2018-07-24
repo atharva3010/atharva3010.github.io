@@ -22,10 +22,9 @@ body{
 }
 
 .container{
-    display: block;
-    width: 1000px;
-    margin: 30px auto 0;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 header{
@@ -107,6 +106,7 @@ li{
     transition: transform 0.2s;
     clear: both;
     position: relative;
+    width: 150px;
 }
 
 .resume a{
@@ -130,7 +130,6 @@ li{
     white-space: nowrap;
     overflow: hidden; 
     transform: translateY(-50%);
-    display: block;
     position: relative;
 }
 
