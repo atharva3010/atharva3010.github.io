@@ -19,6 +19,7 @@ body{
     color: rgba(255,255,255,0.75);
     font-family: 'Source Code Pro', monospace;
     background-color: rgb(25,25,25);
+    overflow: auto;
 }
 
 .container{
@@ -126,11 +127,11 @@ li{
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     font-size: 130%;
-    text-align: center;
     white-space: nowrap;
-    overflow: hidden; 
-    transform: translateY(-50%);
-    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
 }
 
 .anim-typewriter{
