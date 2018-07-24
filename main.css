@@ -6,9 +6,6 @@
 *{
     margin: 0;
     padding: 0;
-    border: none;
-    outline: none;
-    vertical-align: baseline;
 }
 
 html{
@@ -24,11 +21,16 @@ body{
     background-color: rgb(25,25,25);
 }
 
+.container{
+    display: block;
+    width: 100%;
+}
+
 header{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
     position: relative;
 }
@@ -41,12 +43,14 @@ footer{
     bottom: 5px;
     font-size: 13px;
     text-align: center;
+    clear: both;
 }
 
 .description{
     font-family: 'Raleway', sans-serif;
     color: gray;
     width: 100%;
+    clear: both;
 }
 .navbar{
     list-style-type: none;
@@ -59,6 +63,7 @@ footer{
     float: right;
     right: 20px;
     width: 100%;
+    clear: both;
 }
 
 li{
@@ -74,7 +79,7 @@ li{
     text-decoration: none;
     font-size: 17px;
     color: rgb(185, 185, 185);
-    transition: transform .3s
+    transition: transform .3s;
 }
 
 .navbar a:hover {
@@ -95,6 +100,7 @@ li{
     border-style: dashed;
     border-color: rgb(114, 0, 0);
     transition: transform 0.2s;
+    clear: both;
 }
 
 .resume a{
@@ -108,14 +114,6 @@ li{
     border-color: rgb(17, 0, 255);
 }
 
-img{
-    border-radius: 50%;
-    display: block;
-    height: 200px;
-    width: 200px;
-    float: right;
-}
-
 .line{
     top: 50%;
     width: 27em;
@@ -125,8 +123,9 @@ img{
     text-align: center;
     white-space: nowrap;
     overflow: hidden; 
-    transform: translateY(-80%);
-    position: relative;
+    transform: translateY(-50%);
+    clear: both;
+    display: block;
 }
 
 .anim-typewriter{
