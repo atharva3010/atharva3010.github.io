@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 
 *{
     margin: 0;
@@ -16,7 +15,7 @@ body{
     background-color: rgb(25,25,25);
     overflow: auto;
     background-color: #000000;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='677' height='677' viewBox='0 0 20 20'%3E%3Cg %3E%3Cpolygon fill='%23440000' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%23440000' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='677' height='677' viewBox='0 0 20 20'%3E%3Cg %3E%3Cpolygon fill='%23440000' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%23440000' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .container{
@@ -35,9 +34,12 @@ header{
     margin: 0;
     padding: 0;
     padding-bottom: 30px;
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(255, 255, 255);
-    clear: both;
+}
+
+span{
+    color: rgb(0, 255, 0);
 }
 
 footer{
@@ -52,10 +54,10 @@ footer{
 
 .description{
     font-family: 'Raleway', sans-serif;
-    color: gray;
+    color: rgb(223, 222, 222);
     width: 100%;
     clear: both;
-    padding: 0;
+    padding-top: 5px;
     margin: 0;
     font-size: 22px;
 }
@@ -68,7 +70,6 @@ footer{
     overflow: hidden;
     right: 20px;
     width: 100%;
-    clear: both;
 }
 
 li{
@@ -79,49 +80,45 @@ li{
     width: 70px;
     float: right;
     text-align: center;
-    padding: 18px 15px;
+    padding: 13px 15px;
     text-decoration: none;
     font-size: 17px;
-    color: rgb(185, 185, 185);
+    color: rgb(255, 255, 255);
     transition: transform .3s
 }
 
 .navbar a:hover {
-    background-color: rgb(114, 0, 0);
+    border-bottom: 5px solid  rgb(0, 255, 0);
     color: rgb(255, 255, 255);
-    border-radius: 15%;
     text-align: center;
 }
 
 .resume{
-    padding: 20px;
-    border: 4px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-style: dashed;
-    border-color: rgb(114, 0, 0);
+    padding: 10px;
     transition: transform 0.2s;
     clear: both;
     width: 150px;
     order: 3;
     margin: 50px;
     margin-left: 0;
+    border-bottom: 4px solid rgb(0, 255, 0);
 }
 
 .resume a{
     text-decoration: none;
-    color: rgb(185, 185, 185);
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .resume:hover{
-    border-color: rgb(185, 185, 185);
+    border-color: rgb(255, 0, 0);
 }
 
 .line{
     top: 50%;
     width: 14.5em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    border-right: 4px solid rgba(255, 255, 255, 0.75);
     font-size: 110%;
     white-space: nowrap;
     overflow: hidden;
@@ -145,7 +142,7 @@ li{
 
 @keyframes blinkTextCursor {
     from {
-        border-right-color: rgba(255, 255, 255, 0.75);
+        border-right-color:  rgb(0, 255, 0);
     }
     to{
         border-right-color: transparent;
