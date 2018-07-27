@@ -9,7 +9,7 @@
 
 body{
     height: calc(100vh - 8em);
-    padding: 4em;
+    padding: 2em;
     color: rgba(255,255,255,0.75);
     font-family: 'Source Code Pro', monospace;
     background-color: rgb(25,25,25);
@@ -102,6 +102,7 @@ li{
     margin: 50px;
     margin-left: 0;
     border-bottom: 4px solid rgb(0, 255, 0);
+    order: 2;
 }
 
 .resume a{
@@ -116,7 +117,7 @@ li{
 
 .line{
     top: 50%;
-    width: 14.5em;
+    width: 11.4em;
     margin: 0 auto;
     border-right: 4px solid rgba(255, 255, 255, 0.75);
     font-size: 110%;
@@ -136,7 +137,7 @@ li{
         width: 0em;
     }
     to{
-        width: 14.5em;
+        width: 11.4em;
     }
 }
 
