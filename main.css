@@ -117,7 +117,7 @@ li{
 
 .line{
     top: 50%;
-    width: 11.4em;
+    width: 12.5em;
     margin: 0 auto;
     border-right: 4px solid rgba(255, 255, 255, 0.75);
     font-size: 110%;
@@ -128,8 +128,8 @@ li{
 }
 
 .anim-typewriter{
-    animation:typewriter 3s steps(40) 0.5s 1 normal both,
-    blinkTextCursor 500ms steps(40) infinite normal;
+    animation:typewriter 2s steps(40) 0.5s 1 normal both,
+    blinkTextCursor 350ms steps(40) infinite normal;
 }
 
 @keyframes typewriter{
@@ -137,7 +137,7 @@ li{
         width: 0em;
     }
     to{
-        width: 11.4em;
+        width: 12.5em;
     }
 }
 
