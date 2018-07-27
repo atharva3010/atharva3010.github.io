@@ -129,7 +129,7 @@ li{
 
 .anim-typewriter{
     animation:typewriter 2s steps(40) 0.5s 1 normal both,
-    blinkTextCursor 350ms steps(40) infinite normal;
+    blinkTextCursor 350ms steps(20) infinite normal;
 }
 
 @keyframes typewriter{
